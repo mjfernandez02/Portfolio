@@ -21,6 +21,14 @@ export default function HeroSection() {
       <HeroLocation>{profile.location}</HeroLocation>
       <HeroActions>
         <PrimaryLink href="#work">Explore my work</PrimaryLink>
+        <PlainLink
+          href={profile.resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View resume (opens in a new tab)"
+        >
+          View resume
+        </PlainLink>
         <PlainLink href={`mailto:${profile.email}`} color="muted">
           Get in touch
         </PlainLink>

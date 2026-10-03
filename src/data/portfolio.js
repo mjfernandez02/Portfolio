@@ -7,6 +7,8 @@ export const profile = {
   about:
     "I'm a full-stack developer who enjoys bringing interfaces and the systems behind them together. I've built responsive React applications, secure authentication flows, and APIs, and contributed to production projects ranging from a blockchain marketplace to attendee registration and QR workflows.",
   email: "fmikejordan1213@gmail.com",
+  resume:
+    "https://drive.google.com/file/d/1GKulQDM8cBx7ORkW-1UMNI4qF2hb7LNE/view?usp=sharing",
   github: "https://github.com/mjfernandez02",
   linkedin: "https://www.linkedin.com/in/fernandez-mike-jordan/",
 };
