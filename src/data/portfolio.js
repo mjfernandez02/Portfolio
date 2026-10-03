@@ -65,23 +65,23 @@ export const projects = [
 ];
 
 export const skills = [
-  { group: "Languages", items: "TypeScript, JavaScript, SQL" },
-  {
-    group: "Backend",
-    items: "Node.js, Express.js, REST APIs, OAuth 2.0, PKCE, JWT, SSO, RBAC",
-  },
+  { group: "Languages", items: "TypeScript, JavaScript" },
   {
     group: "Frontend",
     items:
-      "React, Next.js, Vite, Chakra UI, Tailwind CSS, Material UI, HTML, CSS",
+    "React, Next.js, Vite, Chakra UI, Tailwind CSS, Material UI, HTML, CSS",
+  },
+  {
+    group: "Backend",
+    items: "Node.js, Express.js, REST APIs",
   },
   {
     group: "Data",
-    items: "PostgreSQL, MySQL, Supabase, Firebase, Sequelize, Prisma",
+    items: "PostgreSQL, MySQL, Supabase, Prisma",
   },
   {
     group: "Testing and tools",
-    items: "Vitest, Supertest, Git, GitHub Actions, Postman, Vercel, Render",
+    items: "Git, GitHub, Vercel, Render",
   },
 ];
 
