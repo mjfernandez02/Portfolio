@@ -1,4 +1,4 @@
-import { profile, skills, experience, education } from "../data/portfolio.js";
+import { profile, skills, education } from "../data/portfolio.js";
 import {
   Section,
   AboutDescription,
@@ -7,8 +7,6 @@ import {
   DetailLabel,
   MutedText,
   SubsectionHeading,
-  ExperienceList,
-  DetailDate,
   DetailContent,
   DetailTitle,
   EducationDate,
@@ -27,19 +25,6 @@ export default function AboutSection() {
           </DetailRow>
         ))}
       </SkillsList>
-
-      <SubsectionHeading>Experience</SubsectionHeading>
-      <ExperienceList>
-        {experience.map((e) => (
-          <DetailRow key={e.what + e.when}>
-            <DetailDate>{e.when}</DetailDate>
-            <DetailContent>
-              <DetailTitle>{e.what}</DetailTitle>
-              <MutedText>{e.note}</MutedText>
-            </DetailContent>
-          </DetailRow>
-        ))}
-      </ExperienceList>
 
       <SubsectionHeading>Education</SubsectionHeading>
       <DetailRow>
