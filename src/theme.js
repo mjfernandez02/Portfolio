@@ -14,8 +14,8 @@ const theme = createSystem(defaultConfig, {
         surface: { value: { base: "#EAF0E8", _dark: "#242E2B" } },
         ink: { value: { base: "#202F28", _dark: "#E3EAE6" } },
         muted: { value: { base: "#56675E", _dark: "#D3DED8" } },
-        line: { value: { base: "#D3DDD8", _dark: "#334039" } },
-        accent: { value: { base: "#2E6650", _dark: "#8DBDB2" } },
+        line: { value: { base: "#454847", _dark: "#f3f3f3" } },
+        accent: { value: { base: "#3a5148", _dark: "#8DBDB2" } },
       },
     },
     keyframes: {

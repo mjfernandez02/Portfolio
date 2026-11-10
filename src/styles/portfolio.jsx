@@ -255,7 +255,23 @@ export const ProjectDescription = (props) => (
   <Text mt={4} color="muted" maxW="68ch" lineHeight={1.8} {...props} />
 );
 
-export const ProjectDemoLink = (props) => <Link mt={3} {...props} />;
+export const ProjectDemoLink = (props) => (
+  <Link
+    display="inline-flex"
+    alignItems="center"
+    mt={4}
+    px={4}
+    py={2}
+    bg="accent"
+    color="bg"
+    borderRadius="full"
+    fontSize="sm"
+    fontWeight={700}
+    textDecoration="none"
+    _hover={{ opacity: 0.82, textDecoration: "none" }}
+    {...props}
+  />
+);
 
 export const ProjectTags = (props) => (
   <Flex mt={4} wrap="wrap" gap={2} {...props} />

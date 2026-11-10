@@ -11,7 +11,17 @@ export default function Navigation({ colorMode, toggleColorMode }) {
       <NavLinks>
         <NavLink href="#work">Work</NavLink>
         <NavLink href="#about">About</NavLink>
-        <NavLink href="#contact">Contact</NavLink>
+        <NavLink
+          href="#contact"
+          bg="accent"
+          color="bg"
+          px={4}
+          py={2}
+          borderRadius="full"
+          _hover={{ opacity: 0.85 }}
+        >
+          Contact
+        </NavLink>
       </NavLinks>
       <ThemeToggle
         onClick={toggleColorMode}

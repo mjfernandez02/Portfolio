@@ -20,7 +20,7 @@ export default function HeroSection() {
       <HeroIntro>{profile.intro}</HeroIntro>
       <HeroLocation>{profile.location}</HeroLocation>
       <HeroActions>
-        <PrimaryLink href="#work">Explore my work</PrimaryLink>
+        <PlainLink href="#work">Explore my work</PlainLink>
         <PlainLink
           href={profile.resume}
           target="_blank"
@@ -29,9 +29,9 @@ export default function HeroSection() {
         >
           View resume
         </PlainLink>
-        <PlainLink href={`mailto:${profile.email}`} color="muted">
+        <PrimaryLink href={`mailto:${profile.email}`}>
           Get in touch
-        </PlainLink>
+        </PrimaryLink>
       </HeroActions>
     </Hero>
   );
