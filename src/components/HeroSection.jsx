@@ -29,7 +29,7 @@ export default function HeroSection() {
         >
           View resume
         </PlainLink>
-        <PrimaryLink href={`mailto:${profile.email}`}>
+        <PrimaryLink href="#contact">
           Get in touch
         </PrimaryLink>
       </HeroActions>
