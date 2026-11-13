@@ -50,7 +50,7 @@ export const projects = [
     title: "WordWell",
     category: "personal",
     year: "March 2026 to present",
-    desc: "Built a vocabulary learning web app with a responsive React interface for daily lessons and practice. Developed its authentication platform with OAuth 2.0, PKCE, refresh-token rotation, cookie-based SSO, and protected routes with automatic token renewal.",
+    desc: "Built a vocabulary learning web app with a responsive React interface for daily lessons and practice and can earn rewards and achievements. Developed its authentication platform with OAuth 2.0, PKCE, refresh-token rotation, cookie-based SSO, and protected routes with automatic token renewal.",
     stack: [
       "React",
       "Chakra UI",
