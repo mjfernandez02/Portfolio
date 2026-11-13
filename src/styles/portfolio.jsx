@@ -355,18 +355,52 @@ export const ContactDescription = (props) => (
   <Text data-scroll-reveal="" color="muted" maxW="52ch" {...props} />
 );
 
-export const ContactEmail = (props) => (
-  <Text data-scroll-reveal=""
-    mt={6}
-    fontSize={{ base: "md", sm: "xl", md: "2xl" }}
-    fontWeight={500}
-    letterSpacing="-0.025em"
-    overflowWrap="anywhere"
+export const SocialLinks = (props) => (
+  <HStack
+    data-scroll-reveal=""
+    mt={8}
+    gap={3}
+    flexWrap="wrap"
+    align="stretch"
     {...props}
   />
 );
 
-export const SocialLinks = (props) => <HStack data-scroll-reveal="" mt={4} gap={6} {...props} />;
+export const SocialLink = (props) => (
+  <Link
+    display="inline-flex"
+    alignItems="center"
+    gap={3}
+    px={3}
+    py={2}
+    pr={4}
+    bg="surface"
+    color="ink"
+    border="1px solid"
+    borderColor="line"
+    borderRadius="full"
+    fontSize="sm"
+    fontWeight={600}
+    lineHeight={1.2}
+    textDecoration="none"
+    transition="border-color 0.2s ease, color 0.2s ease"
+    _hover={{ borderColor: "accent", color: "accent", opacity: 1 }}
+    {...props}
+  />
+);
+
+export const SocialLogo = (props) => (
+  <Flex
+    align="center"
+    justify="center"
+    boxSize="34px"
+    flexShrink={0}
+    borderRadius="full"
+    bg="accent"
+    color="bg"
+    {...props}
+  />
+);
 
 export const PageFooter = (props) => (
   <Box data-scroll-reveal="" as="footer" py={8} borderTop="1px solid" borderColor="line" {...props} />
